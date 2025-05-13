@@ -49,6 +49,7 @@
                       "features/advanced-retrieval",
                       "features/contextual-add",
                       "features/multimodal-support",
+                      "features/timestamp",
                       "features/selective-memory",
                       "features/custom-categories",
                       "features/custom-instructions",
@@ -57,7 +58,8 @@
                       "features/memory-export",
                       "features/webhooks",
                       "features/graph-memory",
-                      "features/feedback-mechanism"
+                      "features/feedback-mechanism",
+                      "features/expiration-date"
                     ]
                   }
                 ]
@@ -164,7 +166,8 @@
                           "components/embedders/models/gemini",
                           "components/embedders/models/lmstudio",
                           "components/embedders/models/together",
-                          "components/embedders/models/langchain"
+                          "components/embedders/models/langchain",
+                          "components/embedders/models/aws_bedrock"
                         ]
                       }
                     ]
@@ -191,6 +194,7 @@
                   "examples",
                   "examples/mem0-demo",
                   "examples/ai_companion_js",
+                  "examples/eliza_os",
                   "examples/mem0-mastra",
                   "examples/mem0-with-ollama",
                   "examples/personal-ai-tutor",
